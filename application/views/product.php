@@ -2,7 +2,7 @@
     <div class = container >
         <iframe width="560" height="315" src="https://www.youtube.com/embed/bZkXoFFGN-Y"></iframe>
     </div>
-    <form method="POST" action="<?= base_url() ?>Product/product">
+    <form method="POST" action="<?= base_url() ?>Product">
     <div class ="row">  
     <div class = "col-3">
         
@@ -61,3 +61,45 @@
     </form>
 
 </div>
+
+
+
+<html>
+<head>
+<title>Display records</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+table{
+  margin-bottom : 20px;
+}
+</style>
+</head>
+ 
+<body>
+<table width="600" border="0" cellspacing="5" cellpadding="5">
+<tr style="background:#CCC">
+    <th>ID</th>
+    <th>COMMAND</th>
+    <th>STATUS</th>
+  </tr>
+  <?php
+  if(!is_null($data))
+  foreach($data as $row)
+  {
+  echo "<tr>";
+  echo "<td>".$row->id."</td>";
+  echo "<td>".$row->pd1, $row->pd2, $row->pd3, $row->pd4."</td>";
+  echo "<td>".$row->status."</td>";
+  echo "</tr>";
+  }
+
+   ?>
+</table>
+</body>
+</html>
+

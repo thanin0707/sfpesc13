@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2596be; height : 106px">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-middle">
+                
                 <div class="d-inline-block align-text-middle">
                     LEARNING<br>BASIC SMART FACTORY
                 </div>

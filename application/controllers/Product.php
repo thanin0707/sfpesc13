@@ -2,26 +2,30 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Product extends CI_Controller {
-
-	public function index()
-	{
 		
-		$this->load->view('nav');
-		// $this->load->view('home');
-		$this->load->view('product');
-		$this->load->view('footer');
-		
-	}
-
-	public function product()
+	public function __construct()
 	{
+		parent::__construct();
+		if (!isset($_SESSION['username'])){
+
+			redirect(base_url().'Auth/login');
+
+
+		}
+
+		
+		
 		$this->load->model('Api_model');
 		// $this->load->view('nav');
 		// $this->load->view('product');
 		// $this->load->view('footer');
+
 		if($this->input->post('save'))
 		{
-		
+			$this->load->model('Api_model');
+			$result['data']=$this->Api_model->api1showid();
+			$this->load->view('api-1showid',$result);
+
 			$data['user_id']=0;
 			$data['owner']="ESC_13";
 			$data['pd1']=$this->input->post('pd1');
@@ -37,9 +41,28 @@ class Product extends CI_Controller {
 			else{
 					echo "Insert error !";
 			}
-		$this->index();
+	
 		}
+		
 	}
+
+	public function index()
+	{
+
+		$result['data']=$this->Api_model->api1select();
+		// $this->load->view('product',$result);
+		
+		$this->load->view('nav');
+		// $this->load->view('home');
+		$this->load->view('product',$result);
+		$this->load->view('footer');
+		
+		
+	}
+
+	
+	
+	
 
 	
 }

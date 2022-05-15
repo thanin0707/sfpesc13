@@ -16,26 +16,20 @@ class Api extends CI_Controller {
         $res["result"] = $this->Api_model->api2select();
 		
 		$this->load->view('api-2select', $res);
+
+		$this->Api_model->api2_update();
 	
 	}
 
-	public function api1select()
+	public function api1showid()
 	{
 
-		// parent::__construct();
-
-		// $this->load->database();
-
 		$this->load->model('Api_model');
-		// }
-		// 	/*Display*/
-		// 	 public function api1select()
-		// {
-		$result['data']=$this->Api_model->api1select();
-		$this->load->view('api-1select',$result);
+		$result['data']=$this->Api_model->api1showid();
+		$this->load->view('api-1showid',$result);
 
 		
-			// $this->load->model('Api_model');
+		// $this->load->model('Api_model');
         // $data["fetch_data"]=$this->Api_model->api1select();
 		// $this->load->view("api-1select", $data);
 	}
