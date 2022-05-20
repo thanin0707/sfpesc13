@@ -44,13 +44,13 @@
                     <a class="nav-link active" aria-current="page" href=<?php echo base_url()?>>HOME</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href="https://learn.thairobotics.org/courses/การสั่งงานระบบสาธิตการ/">ONLINE<br>CONTENTS</a>
+                    <a class="nav-link active" aria-current="page" href="https://learn.thairobotics.org/courses/การสั่งงานระบบสาธิตการ/">ONLINE<br>CONTENTS</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href=<?php echo base_url("Product")?>>PRODUCT<br>CUSTOMIZATION</a>
+                    <a class="nav-link active" aria-current="page" href=<?php echo base_url("Product")?>>PRODUCT<br>CUSTOMIZATION</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link" href=<?php echo base_url("About/aboutus")?>>ABOUT US</a>
+                    <a class="nav-link active" aria-current="page" href=<?php echo base_url("About/aboutus")?>>ABOUT US</a>
                 </li>
                 <?php if (!isset($_SESSION['username'])):?>
                     <li class="nav-item px-3">
@@ -77,5 +77,4 @@
             </div>
         </div>
     </nav>
-
     
