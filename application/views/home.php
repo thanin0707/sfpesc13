@@ -13,7 +13,7 @@
             </div>
 
             <div class = "col-6" style = "background-color :#fff" >
-                <img src = "http://localhost/SFP/Web.png" style  = "width : 635px; height : 520px; ">
+                <img src = "https://escsf13.herokuapp.com/SFP/Web.png" style  = "width : 635px; height : 520px; ">
     
             </div>
 
