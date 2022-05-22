@@ -2,7 +2,7 @@
         <div class = "row">
             <div class ="col-6">
                 <div style = "padding-top : 80px;"> </div>
-                <img src = "http://localhost/SFP/about1.png" style  = "width : 475px; height : 396px; ">
+                <img src = "https://escsf13.herokuapp.com/about1.png" style  = "width : 475px; height : 396px; ">
 
             </div>
             <div class = "col-6" style ="text-align:left; font-family:Kanit; color:#037691;">
@@ -26,7 +26,7 @@
     </div>
     <div class ="container-fluid" style = "background-color:#fff; height :700px; text-align:center;" >
         <div style = "padding-top : 150px;"> </div>
-        <img src = "http://localhost/SFP/about2.png" style  = "width : 1093px; height : 377px; ">
+        <img src = "https://escsf13.herokuapp.com/about2.png" style  = "width : 1093px; height : 377px; ">
 
 
     </div>
