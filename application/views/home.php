@@ -27,7 +27,7 @@
                 <div style = "padding-top: 45px; color :#fff; font-family :Kanit; font-weight:Medium; font-size :46px;">Key Features</div>
                 <div style = "color :#007591; font-family :Kanit; font-weight:Medium; font-size :35px;">คุณลักษณะพิเศษ</div>
                 <div style = "padding-top: 40px;"> </div>
-                <img src = "http://localhost/SFP/Home2.png" style  = "width : 1111px; height : 230px; ">
+                <img src = "https://escsf13.herokuapp.com/SFP/Home2.png" style  = "width : 1111px; height : 230px; ">
     
 
             </div>
@@ -39,14 +39,14 @@
         <div class = "row">
             <div class = "col-6" >
                 <div style = "padding-top : 150px;"> </div>
-                <img src = "http://localhost/SFP/Home3.png" style  = "width : 475px; height : 292px;  ">
+                <img src = "https://escsf13.herokuapp.com/SFP/Home3.png" style  = "width : 475px; height : 292px;  ">
 
             </div>
             <div class = "col-6" style = "text-align :left; color:#037691; font-family :Kanit;">
                 <div style = "font-weight :Medium; font-size :45px; padding-top :61px;">WHY SMART FACTORY?</div>
                 <div style = "font-weight :Regular; font-size :30px;">ความสำคัญของโรงงานอัจฉริยะ</div>
                 <div style = "font-weight :Regular; font-size :24px; padding-bottom :46px;">ในปัจจุบัน โรงงานอุตสาหกรรมได้มีการนำเทคโนโลยี หุ่นยนต์ ระบบอัตโนมัติ และระบบอัจฉริยะเข้ามาประยุกต์ใช้ ภายใต้ชื่อ โรงงานอัจฉริยะ โดยระบบนี้เองก็ได้มีแนวโน้มที่จะถูกผลักดันให้เข้ามามีบทบาทแทนโรงงานแบบเดิมมากขึ้นในอนาคต เนื่องจากความสามารถในการทำงานได้อย่างเป็นระบบ การลดการใช้ทรัพยากรมนุษย์ในระบบอุตสาหกรรม ประสิทธิภาพในการทำงานซึ่งทำได้ดีกว่าโรงงานสมัยเก่าทั้งเชิงคุณภาพ และปริมาณ</div>
-                <a href="http://localhost/SFP/index.php/About/aboutus" class="button" > Learn More </a>
+                <a href="https://escsf13.herokuapp.com/SFP/index.php/About/aboutus" class="button" > Learn More </a>
                 <div style = "padding-bottom : 94px;"></div>
             </div>
         </div>
