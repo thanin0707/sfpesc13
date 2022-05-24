@@ -6,12 +6,12 @@ class Product extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-// 		if (!isset($_SESSION['username'])){
+		if (!isset($_SESSION['username'])){
 
-// 			redirect(base_url().'Auth/login');
+			redirect(base_url().'Auth/login');
 
 
-// 		}
+		}
 
 		
 		
